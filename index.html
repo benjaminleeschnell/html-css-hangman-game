@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML and CSS Game</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+<div class="game">
+    <div id="score">
+        <p id="scoreArea"></p>
+    </div>
+
+    <div id="question-section">
+    
+        <div class="question-area">
+            <h3 id="questionTitle" class="question-title display-none">Question 1</h3>
+            <p id="question" class="question"></p>
+            <p id="hint" class="hint"></p>
+
+            <form autocomplete="off" id="form">
+                <input class="display-none" id="answer"></input><br>
+                <button class="display-none" type="submit" id="submitAnswer">Submit Answer</button>
+            </form>
+        </div>
+        <button id="startButton" onclick="getQuestion(); startGameBoard();">Start Game</button>
+
+            
+    </div>
+    <div class="incorrect-answer"> 
+        <p id="incorrectAnswer" class="display-none"><br><span id="responseText"></span></p>
+    </div> 
+    <canvas id="myCanvas" class="display-none" width="500" height="200" style="border:1px solid #d3d3d3;">
+        Sorry, your browser is too shitty to play this game.
+    </canvas>
+
+    <!-- <div id="website">
+    </div> -->
+
+</div>
+<script type="text/javascript" src="js/hangman.js"></script>
+<script type="text/javascript" src="js/questions.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,700|Dosis:400,600,700');
+
+html {
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
+
+.game {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: "Dosis";
+	color: #fff;
+	font-size: 2.4em;
+}
+
+p, a, li {
+	font-family: "Arvo";
+	color: #fff;
+	font-size: 1.4em;
+}
+
+.question-area {
+	max-width: 740px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 50px;
+	margin-bottom: 30px;
+}
+
+#answer {
+	width: 700px;
+	height: 50px;
+	background-color: #333333;
+	color: limegreen;
+	text-align: center;
+	border: none;
+}
+
+#answer:focus {
+	outline: none;
+	border: solid 1px #ffffff;
+}
+
+#submitAnswer {
+	width: 200px;
+	height: 40px;
+	border: none;
+	margin-top: 15px;
+	background-color: #a8eb12;
+	color: #051937;
+	font-family: "Dosis";
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+#submitAnswer {
+	outline: none;
+}
+
+
+
+/*#website {
+	background-color: rgba(255, 255, 255, 0.3);
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 5px;
+}
+
+#website h1 {
+	font-family: initial;
+	color: #000;
+}
+
+#website p {
+	font-family: initial;
+	color: #000;
+}*/
+
+
+#myCanvas {
+	margin: 0 auto;
+	display: block;
+}
+
+.display-none {
+	display: none !important;
+}
+
+#startButton {
+	margin-top: 100px;
+	padding: 30px 60px;
+	background-color: #051937;
+	color: white;
+	font-family: "Dosis";
+	font-size: 1.4em;
+	border: 0px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+ 
+#startButton:hover {
+	font-size: 1.6em;
+	background-color: #a8eb12;
+	color: #051937;
+	font-weight: bold;
+	border-radius: 20px;
+}
+
+
